@@ -1,0 +1,16 @@
+{
+  "name": "cinder-circuit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node serve.mjs --open",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/combat.test.js",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "dependencies": { "three": "0.180.0" },
+  "devDependencies": { "vite": "7.3.1", "playwright": "1.58.2" }
+}
