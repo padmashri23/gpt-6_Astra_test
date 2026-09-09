@@ -1,8 +1,12 @@
 # Cinder Circuit
 
+[![Test and deploy](https://github.com/padmashri23/gpt-6_Astra_test/actions/workflows/deploy.yml/badge.svg)](https://github.com/padmashri23/gpt-6_Astra_test/actions/workflows/deploy.yml)
+
 A complete single-player browser 3D arcade fighter. Three original fighters, two modeled arenas, a two-bout arcade circuit, quick matches, and training. All combat, character geometry, animation, environments, effects, and synthesized music are authored for this project. No assets from existing fighting games are used.
 
 ## Play
+
+**[Play it in your browser](https://padmashri23.github.io/gpt-6_Astra_test/)** — deployed from `main` by GitHub Actions. Needs a WebGL-capable browser; a keyboard is recommended.
 
 On Windows, double-click **start-game.cmd**. It serves the included production build and opens the game. Keep the terminal open while playing. Node.js **22.12 or later** is required. With the included `dist/` build, no package installation or internet connection is needed.
 
